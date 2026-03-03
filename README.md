@@ -1,68 +1,43 @@
-🖼️ Image to PDF Converter (Python)
+🖼️ Image → PDF Converter
+🚀 Python Automation Project
+<p align="center"> <b>Convert Multiple Images into PDF Format Instantly</b><br> Built using Python & Pillow </p>
+📌 About The Project
 
-A simple Python script that converts all images (.jpg, .jpeg, .png) from a folder into PDF format using the Pillow library.
+This project is a batch image-to-PDF converter built using Python.
+It reads images from a folder and automatically converts them into PDF format.
 
-📌 Project Description
+Perfect beginner automation project for Python developers.
 
-This script:
+✨ Key Features
 
-Reads images from an images folder
+🔄 Batch image conversion
 
-Converts them into PDF format
+📂 Automatic output folder creation
 
-Saves the converted files inside a pdf_files folder
+🖼 Supports JPG, JPEG, PNG
 
-Automatically creates the output folder if it does not exist
+⚡ Fast and lightweight
 
-🚀 Features
+🧠 Beginner-friendly code
 
-✔ Batch image conversion
-✔ Supports JPG, JPEG, and PNG formats
-✔ Automatically creates output directory
-✔ Simple and beginner-friendly code
-
-🛠️ Technologies Used
-
-Python 3
-
-Pillow (Python Imaging Library)
-
-OS Module
-
-📂 Project Structure
-project-folder/
+🛠 Tech Stack
+Technology	Purpose
+Python 3	Core Programming
+Pillow	Image Processing
+OS Module	File Handling
+📂 Folder Structure
+Image-to-PDF-Converter/
 │
 ├── image_to_PDF_Convert.py
-├── images/              # Input images
-└── pdf_files/           # Generated PDF files
+├── images/
+└── pdf_files/
 ⚙️ Installation
-1️⃣ Install Python (if not installed)
-
-Download from:
-https://www.python.org/downloads/
-
-2️⃣ Install Pillow
 pip install pillow
-▶️ How to Run
-
-Place your images inside the images folder.
-
-Run the script:
-
+▶️ Run The Script
 python image_to_PDF_Convert.py
-
-Converted PDF files will be available inside the pdf_files folder.
-
-💡 How It Works
-
-The script checks if the output folder exists.
-
-It loops through all files in the images folder.
-
-If the file extension matches .jpg, .jpeg, or .png, it:
-
-Opens the image
-
-Converts it to RGB mode
-
-Saves it as a .pdf file
+🔎 How It Works
+1. Check if output folder exists
+2. Create folder if not present
+3. Loop through image files
+4. Convert image to RGB
+5. Save as PDF
