@@ -1,6 +1,6 @@
 # 🖼️ Image to PDF Converter
 
-<p align="center">
+<p>
   <b>Convert Multiple Images into PDF Format Instantly</b><br>
   Built using Python & Pillow
 </p>
